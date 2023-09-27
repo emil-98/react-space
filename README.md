@@ -1,12 +1,5 @@
-# Vite + React + Node
-### With Tailwind CSS
+# Space content app
 
-This is a template project I stumbled across while looking for a simple way to develop React + Node apps using Vite as a dev server.
+This is a simple app I wrote using React and Node mostly as a way to demonstrate some ui and backend skills. The frontend receives an image from NASA's astronomy pic of the day API which is queried from a node backend. 
 
-This method was found on [Noam Honig's Blog](https://noam.hashnode.dev/using-vite-to-serve-and-hot-reload-react-app-express-api-together).
-
-One great thing about this setup is that everything can be installed to the root directory and there is only one package.json
-
-I did my best to explain how the modified files work using comments. 
-
-See the express-plugin.js file for more info.
+I couldn't find an easy way to use Vite as the dev server for a React and Express project, so I did some searching and found [this](https://noam.hashnode.dev/using-vite-to-serve-and-hot-reload-react-app-express-api-together) blog by Noam Honig, which contains some scripts that make everything run smoothly for development.
